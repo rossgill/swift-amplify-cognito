@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78464B8B6DBB3F33B9B28A1A /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 38AC7ED943D9F5D5758DD911 /* amplifyconfiguration.json */; };
 		7B7882B429D607C400EFE183 /* swift_amplify_cognitoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7882B329D607C400EFE183 /* swift_amplify_cognitoApp.swift */; };
 		7B7882B629D607C400EFE183 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7882B529D607C400EFE183 /* ContentView.swift */; };
 		7B7882B829D607C600EFE183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7882B729D607C600EFE183 /* Assets.xcassets */; };
 		7B7882BB29D607C600EFE183 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7882BA29D607C600EFE183 /* Preview Assets.xcassets */; };
+		7B7882C229D6085300EFE183 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7882C129D6085300EFE183 /* SignUpView.swift */; };
+		7B7882C429D6087000EFE183 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7882C329D6087000EFE183 /* ConfirmationView.swift */; };
+		7B7882C629D6087D00EFE183 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7882C529D6087D00EFE183 /* LoginView.swift */; };
+		7B7882C829D6088700EFE183 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7882C729D6088700EFE183 /* SessionView.swift */; };
+		7B8D352129D67B62007D9F5F /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D352029D67B62007D9F5F /* SessionManager.swift */; };
+		8FB45D98CCCBFF058100661B /* Pods_swift_amplify_cognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF59CE558187B4D05F0CB03 /* Pods_swift_amplify_cognito.framework */; };
+		E1AB8A218E0060B20519BBA0 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B9AE08AB877B27B1DD81B955 /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38AC7ED943D9F5D5758DD911 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		44D8DA5970D2745525BEDF4D /* Pods-swift-amplify-cognito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-amplify-cognito.release.xcconfig"; path = "Target Support Files/Pods-swift-amplify-cognito/Pods-swift-amplify-cognito.release.xcconfig"; sourceTree = "<group>"; };
 		7B7882B029D607C400EFE183 /* swift-amplify-cognito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-amplify-cognito.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7882B329D607C400EFE183 /* swift_amplify_cognitoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_amplify_cognitoApp.swift; sourceTree = "<group>"; };
 		7B7882B529D607C400EFE183 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B7882B729D607C600EFE183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B7882BA29D607C600EFE183 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B7882C129D6085300EFE183 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		7B7882C329D6087000EFE183 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		7B7882C529D6087D00EFE183 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7B7882C729D6088700EFE183 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		7B8D352029D67B62007D9F5F /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		831CB93CE5BAEB757DCA8A56 /* Pods-swift-amplify-cognito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-amplify-cognito.debug.xcconfig"; path = "Target Support Files/Pods-swift-amplify-cognito/Pods-swift-amplify-cognito.debug.xcconfig"; sourceTree = "<group>"; };
+		B9AE08AB877B27B1DD81B955 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		DAF59CE558187B4D05F0CB03 /* Pods_swift_amplify_cognito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_amplify_cognito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +44,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB45D98CCCBFF058100661B /* Pods_swift_amplify_cognito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BCC36D81200F78908587E85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAF59CE558187B4D05F0CB03 /* Pods_swift_amplify_cognito.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B7882A729D607C400EFE183 = {
 			isa = PBXGroup;
 			children = (
 				7B7882B229D607C400EFE183 /* swift-amplify-cognito */,
 				7B7882B129D607C400EFE183 /* Products */,
+				E47E6B4A746274FEEE1C73CD /* Pods */,
+				2BCC36D81200F78908587E85 /* Frameworks */,
+				82A4DB1AD85F2DD0BA08A115 /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +85,11 @@
 				7B7882B529D607C400EFE183 /* ContentView.swift */,
 				7B7882B729D607C600EFE183 /* Assets.xcassets */,
 				7B7882B929D607C600EFE183 /* Preview Content */,
+				7B7882C129D6085300EFE183 /* SignUpView.swift */,
+				7B7882C329D6087000EFE183 /* ConfirmationView.swift */,
+				7B7882C529D6087D00EFE183 /* LoginView.swift */,
+				7B7882C729D6088700EFE183 /* SessionView.swift */,
+				7B8D352029D67B62007D9F5F /* SessionManager.swift */,
 			);
 			path = "swift-amplify-cognito";
 			sourceTree = "<group>";
@@ -67,6 +102,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		82A4DB1AD85F2DD0BA08A115 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				B9AE08AB877B27B1DD81B955 /* awsconfiguration.json */,
+				38AC7ED943D9F5D5758DD911 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		E47E6B4A746274FEEE1C73CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				831CB93CE5BAEB757DCA8A56 /* Pods-swift-amplify-cognito.debug.xcconfig */,
+				44D8DA5970D2745525BEDF4D /* Pods-swift-amplify-cognito.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B7882BE29D607C600EFE183 /* Build configuration list for PBXNativeTarget "swift-amplify-cognito" */;
 			buildPhases = (
+				DBB9DAF6BC32713AF6E31557 /* [CP] Check Pods Manifest.lock */,
 				7B7882AC29D607C400EFE183 /* Sources */,
 				7B7882AD29D607C400EFE183 /* Frameworks */,
 				7B7882AE29D607C400EFE183 /* Resources */,
+				EC19E2F0D5D15C486BBF8EF0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,10 +182,58 @@
 			files = (
 				7B7882BB29D607C600EFE183 /* Preview Assets.xcassets in Resources */,
 				7B7882B829D607C600EFE183 /* Assets.xcassets in Resources */,
+				E1AB8A218E0060B20519BBA0 /* awsconfiguration.json in Resources */,
+				78464B8B6DBB3F33B9B28A1A /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBB9DAF6BC32713AF6E31557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-amplify-cognito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC19E2F0D5D15C486BBF8EF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-amplify-cognito/Pods-swift-amplify-cognito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-amplify-cognito/Pods-swift-amplify-cognito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-amplify-cognito/Pods-swift-amplify-cognito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B7882AC29D607C400EFE183 /* Sources */ = {
@@ -138,7 +241,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B7882B629D607C400EFE183 /* ContentView.swift in Sources */,
+				7B7882C829D6088700EFE183 /* SessionView.swift in Sources */,
+				7B7882C429D6087000EFE183 /* ConfirmationView.swift in Sources */,
+				7B7882C229D6085300EFE183 /* SignUpView.swift in Sources */,
+				7B7882C629D6087D00EFE183 /* LoginView.swift in Sources */,
 				7B7882B429D607C400EFE183 /* swift_amplify_cognitoApp.swift in Sources */,
+				7B8D352129D67B62007D9F5F /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +369,7 @@
 		};
 		7B7882BF29D607C600EFE183 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831CB93CE5BAEB757DCA8A56 /* Pods-swift-amplify-cognito.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +399,7 @@
 		};
 		7B7882C029D607C600EFE183 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D8DA5970D2745525BEDF4D /* Pods-swift-amplify-cognito.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
