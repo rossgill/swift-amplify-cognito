@@ -132,6 +132,7 @@
 				7B7882AD29D607C400EFE183 /* Frameworks */,
 				7B7882AE29D607C400EFE183 /* Resources */,
 				EC19E2F0D5D15C486BBF8EF0 /* [CP] Embed Pods Frameworks */,
+				7BD6B8E229E1E8BB0070A159 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -190,6 +191,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7BD6B8E229E1E8BB0070A159 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#  ci_post_clone.sh\n#  \n#\n#  Created by Ross Gill on 4/8/23.\n#\n# Install CocoaPods using Homebrew\nbrew install cocoapods\n\n# Install dependencies you manage with CocoaPods.\npods install\n";
+		};
 		DBB9DAF6BC32713AF6E31557 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
